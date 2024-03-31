@@ -3,7 +3,7 @@ from flask_bootstrap import Bootstrap
 import requests, os
 from dotenv import load_dotenv
 
-load_dotenv()  # Ini memuat variabel lingkungan dari file .env
+load_dotenv()
 
 app = Flask(__name__)
 Bootstrap(app)
